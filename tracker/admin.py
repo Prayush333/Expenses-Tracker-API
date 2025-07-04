@@ -1,4 +1,5 @@
 from django.contrib import admin
+from tracker.models import ExpenseIncome
 
 
-# Register your models here.
+admin.site.register(ExpenseIncome)
